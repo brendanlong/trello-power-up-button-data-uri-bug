@@ -1,0 +1,18 @@
+{
+  "name": "Button URI Bug Example",
+  "description": "Button URI bug example",
+  "details": "Demonstrates a bug with the Trello API where card buttons can't be data URI's or Blob URI's.",
+  "author": "Brendan Long",
+  "capabilities": [
+    "card-buttons",
+    "board-buttons"
+  ],
+  "connectors": {
+    "iframe": {
+      "url": "./index.html"
+    }
+  },
+  "recommend": {
+    "urls": []
+  }
+}
